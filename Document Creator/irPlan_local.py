@@ -23,7 +23,7 @@ file_path = sys.argv[1]
 # Open irPlanOutline.txt, read the contents, split the contents by '--' and store the sections in a list
 with open('irPlanOutline.txt', 'r') as file:
     outline = file.read()
-    sections = outline.split('--')
+    sections = outline.split('---')
 
 # Print each section
 # for i, section in enumerate(sections, start=1):
